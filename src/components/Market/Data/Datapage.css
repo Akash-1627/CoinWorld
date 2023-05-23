@@ -1,0 +1,151 @@
+.datapage{
+    display: flex;
+    z-index: 10;
+    padding-top: 10px;
+    
+    
+}
+
+.data{
+    height: 100px;
+    user-select: none;
+    display: grid;
+    z-index: 10;
+    grid-template-columns: 16fr 25fr 25fr 25fr;
+}
+.data:hover{
+    background-color: #7631bb2a;
+    
+}
+
+.datapage a{
+    width: 80rem;
+    border-bottom: 2px solid #fff;
+    display: flex;
+    align-items: center;
+}
+.data span{
+    display: flex;
+    align-items: center;
+    width: 23rem;
+    gap: 1.6rem;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+.data span img{
+    height: 60px;
+    width: 60px;
+}
+.data p{
+    display: block;
+    width: 8rem;
+    text-align: center;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    /* padding-left: 0.1rem; */
+    font-size: 1.5rem;
+    /* text-align: center; */
+}
+.change{
+    margin-right: 3rem;
+}
+.data .change{
+    padding-left: 13.8rem;
+}
+.data .mcap{
+    padding-left: 14.5rem;
+}
+
+.head{
+    position: relative;
+    margin-top: 2rem;
+    background-color: #111;
+    height: 4rem;
+    width: 80rem;
+    /* padding: 2rem; */
+    color: #fff;
+    display: flex;
+    z-index: 10;
+    
+    align-items: center;
+    /* justify-content:space-around; */
+    padding-left: 8rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-clip: border-box;
+    background-image: linear-gradient(25deg,#2600fc,#ff00ea);
+    color: transparent;
+}
+
+.head p{
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    color: #fff;
+    
+}
+.coin{
+    padding-right: 13rem;
+}
+.pric{
+    padding-right: 14rem;
+}
+.hourch{
+    padding-right: 14rem;
+}
+.scroll{
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+.scroll::-webkit-scrollbar {
+    display: none;
+  }
+
+.pagin{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+.pagin .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 2rem;
+    background-color: #fff;
+    @media (max-width: 540px){
+        height: 40px;
+        width: 40px;
+        margin-left: 1.2rem;
+    }
+    @media (max-width: 440px){
+        height: 30px;
+        width: 30px;
+        margin-left: 0.8rem;
+    }
+}
+
+.pagin .circle span{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #111;
+    @media (max-width: 540px){
+        font-size:1rem;
+    }
+    @media (max-width: 440px){
+        font-size: 0.8rem;
+    }
+}
+.active{
+    background-clip: button;
+    background-image: linear-gradient(25deg,#2600fc,#ff00ea);
+    color: transparent;
+}
+.active span{
+    color: #fff;
+}

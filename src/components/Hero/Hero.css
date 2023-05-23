@@ -1,0 +1,155 @@
+section{
+    /* background-color: #0f051d; */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding-top: 120px;
+    
+    
+    justify-content: center;
+    @media (max-width: 925px){
+        top: 50%;
+        padding-top: 60px;
+    }
+    @media (max-width: 925px){
+        
+        padding-top: 30px;
+    }
+    
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero h1{
+    position: relative;
+    text-align: center;
+    top: 10vh;
+    font-size: 6rem;
+    font-weight: 800;
+    gap: 1rem;
+    letter-spacing: 0.2rem;
+    color: #fff;
+    z-index: 10;
+    @media (max-width: 1040px){
+        font-size: 5rem;
+    }
+    @media (max-width: 925px){
+        font-size: 4rem;
+        top: 20vh;
+    }
+    @media (max-width: 710px){
+        font-size: 3rem;
+        top: 20vh;
+    }
+}
+
+.col span{
+    background-clip: text;
+    background-image: linear-gradient(25deg,#2600fc,#ff00ea);
+    color: transparent;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    z-index: 10;
+    @media (max-width: 925px){
+        display: none;
+    }
+
+    
+}
+.box .boxdata{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 14rem;
+    margin: 2rem;
+    @media (max-width: 1040px){
+        width: 12rem;
+    }
+    @media (max-width: 925px){
+        width: 10rem;
+    }
+}
+.boxdata img{
+    height: 6rem;
+    width: 6rem;
+    @media (max-width: 1040px){
+        height:5rem;
+        width: 5rem;
+    }
+    @media (max-width: 925px){
+        height: 4rem;
+        width: 4rem;
+    }
+}
+.boxdata p{
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin: 0;
+    color: #fff;
+    padding-top: 1rem;
+    @media (max-width: 1040px){
+        font-size: 1.2rem;
+    }
+    @media (max-width: 925px){
+        font-size: 1rem;
+    }
+}
+.boxdata span{
+    padding-left: 5px;
+}
+
+.boxbutton{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15rem;
+    z-index: 10;
+    @media (max-width: 925px){
+        display: flex;
+    }
+    
+}
+.boxbutton button{
+    width: 14rem;
+    height: 4rem;
+    font-size: 1.4rem;
+    border-radius: 50px;
+    background-clip: button;
+    background-image: linear-gradient(25deg,#2600fc,#ff00ea);
+    color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+.blob{
+    position: fixed;
+    left: -100px;
+    top: 10vh;
+    opacity: 0.6;
+    height: 20rem;
+    width: 20rem;
+    z-index: 2;
+}
+.blob1{
+    position: fixed;
+    /* overflow: hidden; */
+    right: -90px;
+    top: 50vh;
+    opacity: 0.6;
+    height: 20rem;
+    width: 20rem;
+    z-index: 2;
+
+    
+}
