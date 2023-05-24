@@ -69,6 +69,7 @@ header .nav-btn{
 }
 
 header nav{
+    text-decoration: none;
     @media (max-width: 950px){
     
     
@@ -89,12 +90,14 @@ header nav{
     } 
 }
 header .responsive-nav{
+    text-decoration: none;
     @media (max-width: 950px){
 
         transform: none;
     }
 }
 nav .nav-close-btn{
+    text-decoration: none;
     @media (max-width: 950px){
         position: absolute;
         top: 1rem;
