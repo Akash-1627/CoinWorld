@@ -16,7 +16,6 @@ const Hero = () => {
 
   useEffect(() => {
     axios.get(baseURL).then((response) => {
-        // console.log(response.data);
         setPost(response.data);
     }).catch((error) => {
         console.error('Error fetching data:', error);
@@ -51,6 +50,13 @@ const Hero = () => {
           return '#0ecb81';
         } else {
           return 'black';
+        }
+      };
+
+      const scrollToSection = (id) => {
+        const element = document.getElementById(id);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
         }
       };
     
@@ -126,7 +132,7 @@ const Hero = () => {
             
             </div>
             <div className='boxbutton'>
-                <a href='/'><button>See Prices</button></a>
+                <a className='hover1' onClick={() => scrollToSection('wmarket')}><button>See Prices</button></a>
             </div>
             
         </section>

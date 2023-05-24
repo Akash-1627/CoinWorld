@@ -42,9 +42,7 @@
     text-align: center;
     margin-block-start: 1rem;
     margin-block-end: 1rem;
-    /* padding-left: 0.1rem; */
     font-size: 1.5rem;
-    /* text-align: center; */
 }
 .change{
     margin-right: 3rem;
@@ -62,13 +60,11 @@
     background-color: #111;
     height: 4rem;
     width: 80rem;
-    /* padding: 2rem; */
     color: #fff;
     display: flex;
     z-index: 10;
     
     align-items: center;
-    /* justify-content:space-around; */
     padding-left: 8rem;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;

@@ -20,10 +20,10 @@ const Navbar = () => {
         <header>
             <h3><a href="/">CoinWorld</a></h3>
             <nav ref={navref}>
-                <a className='hover' onClick={() => scrollToSection('whero')}>Home</a>
-                <a className='hover' onClick={() => scrollToSection('wmarket')}>Market</a>
-                <a className='hover' onClick={() => scrollToSection('wchoose')}>Choose Us</a>
-                <a className='hover' onClick={() => scrollToSection('wjoin')}>Join</a>
+                <a className='hover' onClick={() => {scrollToSection('whero'); shownavbar()}}>Home</a>
+                <a className='hover' onClick={() => {scrollToSection('wmarket'); shownavbar()}}>Market</a>
+                <a className='hover' onClick={() => {scrollToSection('wchoose'); shownavbar()}}>Choose Us</a>
+                <a className='hover' onClick={() => {scrollToSection('wjoin'); shownavbar()}}>Join</a>
                 <button className='nav-btn nav-close-btn' onClick={shownavbar}>
                     <FaTimes />
                 </button>

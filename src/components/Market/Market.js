@@ -8,7 +8,6 @@ import Datapage2 from './Data/Datapage2';
 import Datapage3 from './Data/Datapage3';
 import Datapage4 from './Data/Datapage4';
 import Datapage5 from './Data/Datapage5';
-// import (Link)
 
 const Market = () => {
     return (
