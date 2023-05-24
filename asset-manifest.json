@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/coinworld/static/css/main.0a49ed75.css",
-    "main.js": "/coinworld/static/js/main.c1f34ae8.js",
+    "main.js": "/coinworld/static/js/main.06f92ed5.js",
     "static/js/787.7b435800.chunk.js": "/coinworld/static/js/787.7b435800.chunk.js",
     "static/media/wallet.png": "/coinworld/static/media/wallet.a0d72649fe98dbe10eb8.png",
     "static/media/lootbox.png": "/coinworld/static/media/lootbox.49d5ef179407caec470e.png",
@@ -10,11 +10,11 @@
     "static/media/blob1.svg": "/coinworld/static/media/blob1.2b542ea8ebcfaf91fbfaad17aa55087e.svg",
     "static/media/blob.svg": "/coinworld/static/media/blob.6804ecb33d632aed7d5c372beb734d67.svg",
     "main.0a49ed75.css.map": "/coinworld/static/css/main.0a49ed75.css.map",
-    "main.c1f34ae8.js.map": "/coinworld/static/js/main.c1f34ae8.js.map",
+    "main.06f92ed5.js.map": "/coinworld/static/js/main.06f92ed5.js.map",
     "787.7b435800.chunk.js.map": "/coinworld/static/js/787.7b435800.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0a49ed75.css",
-    "static/js/main.c1f34ae8.js"
+    "static/js/main.06f92ed5.js"
   ]
 }
