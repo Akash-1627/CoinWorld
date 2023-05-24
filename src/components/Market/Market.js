@@ -3,7 +3,7 @@ import './Market.css';
 import Datapage1 from './Data/Datapage1';
 
 
-import { HashRouter as Router, Routes,Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes,Route } from 'react-router-dom';
 import Datapage2 from './Data/Datapage2';
 import Datapage3 from './Data/Datapage3';
 import Datapage4 from './Data/Datapage4';
