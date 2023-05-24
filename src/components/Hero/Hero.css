@@ -58,9 +58,9 @@ section{
     justify-content: center;
     margin-top: 5rem;
     z-index: 10;
-    @media (max-width: 925px){
+    /* @media (max-width: 925px){
         display: none;
-    }
+    } */
 
     
 }
@@ -114,10 +114,18 @@ section{
     justify-content: center;
     margin-top: 15rem;
     z-index: 10;
-    @media (max-width: 925px){
+    /* @media (max-width: 925px){
+        display: flex;
+    } */
+    
+}
+@media screen and (max-width: 925px) {
+    .box{
+        display: none;
+    }
+    .boxbutton{
         display: flex;
     }
-    
 }
 .boxbutton button{
     width: 14rem;
