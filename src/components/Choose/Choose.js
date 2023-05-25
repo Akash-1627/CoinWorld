@@ -13,6 +13,7 @@ const Choose = () => {
                         <div className='image'>
                             <div className='imga'>
 
+
                                 <i className='bx bx-broadcast'></i>
                             </div>
                         </div>
@@ -90,6 +91,7 @@ const Choose = () => {
                             <h2 className='heading'>CONFIRM TRANSACTION</h2>
                             <p className='value'>Earn by selling your crypto on our marketplace.</p>
                         </div>
+
                     </div>
                 </div>
             </div>

@@ -12,6 +12,7 @@
     font-size: 5rem;
     font-weight: 700;
     color: #fff;
+    user-select: none;
     z-index: 10;
     @media (max-width:610px){
         font-size: 4rem;
@@ -28,6 +29,7 @@
     background-clip: text;
     background-image: linear-gradient(25deg,#2600fc,#ff00ea);
     color: transparent;
+    user-select: none;
     z-index: 10;
     
     @media (max-width:610px){
@@ -45,6 +47,7 @@
     padding-right: 0.8rem;
     font-size: 1.5rem;
     color: #fff;
+    user-select: none;
     z-index: 10;
     @media (max-width:610px){
         font-size: 1.3rem;

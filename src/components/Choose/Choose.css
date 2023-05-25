@@ -38,6 +38,7 @@
     flex-direction: row;
     border: 1px solid #7b34c82d;
     background-color: #66319f2d;
+    backdrop-filter: blur(1px);
     width: 26rem;
     height: 13rem;
     margin-bottom: 3rem;
@@ -134,6 +135,7 @@
     flex-direction: row;
     border: 1px solid #7b34c82d;
     background-color: #66319f2d;
+    backdrop-filter: blur(1px);
     width: 26rem;
     height: 13rem;
     cursor: pointer;

@@ -112,7 +112,7 @@ const Hero = () => {
                 Tether  <span id='thtchange' style={{ color: getColor(post.tether.usd_24h_change)}}>{truncateToTwoDecimals(post.tether.usd_24h_change)}&nbsp;%</span>
               </p>
               <p>
-                $<span id='thtprice'>{post.tether.usd}</span>
+                $<span id='thtprice'>{post.tether.usd}.00</span>
               </p>
             </div>
           )}
