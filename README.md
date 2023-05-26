@@ -53,4 +53,4 @@ This project is licensed under the MIT License
 <br><br>
 <h2>💖Like my work?</h2>
 
-If you like this projects feel free to give it a star.
+If you like this project feel free to give it a star.
