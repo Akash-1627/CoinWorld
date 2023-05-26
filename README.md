@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+<h1 align="center" id="title">CoinWorld</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center"><img src="https://socialify.git.ci/Akash-1627/coinworld/image?description=1&amp;descriptionEditable=A%20Real%20Time%20Crypto%20tracking%20Website&amp;font=Raleway&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Brick%20Wall&amp;theme=Auto" alt="project-image"></p>
+<br>
+<p id="description">CoinWorld is a web based crypto tracking website that allows users to search information about various cryptocurrencies in real-time.</p>
+<br>
+<p align="center"><img src="https://img.shields.io/github/languages/top/Akash-1627/coinworld" alt="shields">&nbsp;<img src="https://img.shields.io/bower/l/react" alt="shields"></p>
+<br>
+<h2>🚀 Demo</h2>
 
-## Available Scripts
+[https://akash-1627.github.io/coinworld/](https://akash-1627.github.io/coinworld/)
+<br><br>
+<h2>Project Screenshots:</h2>
+<br>
 
-In the project directory, you can run:
+<img src="https://raw.githubusercontent.com/Akash-1627/coinworld/main/src/Images/homepage.png" alt="project-screenshot" width="400" height="220">
+<br>
+<img src="https://raw.githubusercontent.com/Akash-1627/coinworld/main/src/Images/market.png" alt="project-screenshot" width="400" height="220">
+<br>
+<img src="https://raw.githubusercontent.com/Akash-1627/coinworld/main/src/Images/choose.png" alt="project-screenshot" width="400" height="220">
+<br>
+<img src="https://raw.githubusercontent.com/Akash-1627/coinworld/main/src/Images/join.png" alt="project-screenshot" width="400" height="220">
+<br>
+<img src="https://raw.githubusercontent.com/Akash-1627/coinworld/main/src/Images/footer.png" alt="project-screenshot" width="400" height="220">
+<br><br>
+  
+  
+<h2>🧐 Features</h2>
 
-### `npm start`
+Here're some of the project's best features:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+*   User can keep a track on all the cryptocurrencies at a single place
+*   Provides updated Market Cap for every cryptocurrency
+*   Auto updated 24h change for every cryptocurrency
+*   Auto updated cryptocurrency prices
+*   User-friendly fully responsive website
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  
+  <br><br>
+<h2>💻 Built with</h2>
 
-### `npm test`
+Technologies used in the project:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+*   React
+*   React Router
+*   React DOM
+*   Vanilla CSS
+<br><br>
+<h2>🛡️ License:</h2>
 
-### `npm run build`
+This project is licensed under the MIT License
+<br><br>
+<h2>💖Like my work?</h2>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you like this projects feel free to give it a star.
