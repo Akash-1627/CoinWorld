@@ -43,9 +43,9 @@ Technologies used in the project:
 
 *   React
 *   React Router
-*   React DOM
-*   Vanilla CSS
+*   CSS
 *   HTML
+*   <a href="https://www.coingecko.com/en/api">CoinGecko API</a>
 <br><br>
 <h2>🛡️ License:</h2>
 
