@@ -76,7 +76,7 @@ const Hero = () => {
             
             <div className='hero' id='whero'>
                 <h1>
-                    TRACK AND TRADE
+                    LEARN AND TRACK
                 </h1>
                 <h1 className='col'><span>CRYPTO CURRENCIES</span></h1>
             </div>
