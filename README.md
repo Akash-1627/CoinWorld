@@ -45,6 +45,7 @@ Technologies used in the project:
 *   React Router
 *   React DOM
 *   Vanilla CSS
+*   HTML
 <br><br>
 <h2>🛡️ License:</h2>
 
