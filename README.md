@@ -8,7 +8,7 @@
 <br>
 <h2>🚀 Demo</h2>
 
-[https://akash-1627.github.io/coinworld/](https://akash-1627.github.io/coinworld/)
+[Click here to watch live demo of CoinWorld](https://akash-1627.github.io/coinworld/)
 <br><br>
 <h2>Project Screenshots:</h2>
 <br>
