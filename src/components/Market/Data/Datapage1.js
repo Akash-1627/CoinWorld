@@ -40,13 +40,15 @@ const Datapage1 = () => {
     };
     const truncateToZeroDecimals = (value) => {
         let truncatedVal;
+        let formatval;
         
         
         if (typeof value === 'number') {
             
                 truncatedVal = value.toFixed(0);
+                formatval = truncatedVal.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
     
-                return truncatedVal;
+                return formatval;
             }
             return value;
         };
@@ -67,6 +69,8 @@ const Datapage1 = () => {
               element.scrollIntoView({ behavior: 'smooth' });
             }
           };
+
+        
 
 
     return (
