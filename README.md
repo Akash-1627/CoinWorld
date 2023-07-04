@@ -4,7 +4,7 @@
 <br>
 <p id="description">CoinWorld is a web based crypto tracking website that allows users to search information about various cryptocurrencies in real-time.</p>
 <br>
-<p align="center"><img src="https://img.shields.io/github/languages/top/Akash-1627/coinworld" alt="shields">&nbsp;<img src="https://img.shields.io/bower/l/react" alt="shields"></p>
+<!-- <p align="center"><img src="https://img.shields.io/github/languages/top/Akash-1627/coinworld" alt="shields">&nbsp;<img src="https://img.shields.io/bower/l/react" alt="shields"></p> -->
 <br>
 <h2>🚀 Demo</h2>
 
